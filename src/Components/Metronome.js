@@ -96,7 +96,7 @@ export default class Metronome extends Component {
                     </form>
 
                 </div>
-                <button onClick={this.startStop}>
+                <button className="play_btn" onClick={this.startStop}>
                     {playing ? 'Stop' : 'Play'}
                 </button>
                 
